@@ -1,0 +1,12 @@
+link(rel="import" href="../../bower_components/polymer/polymer.html")
+link(rel="import" href="../../bower_components/neon-animation/neon-animations.html")
+link(rel="import" href="../../bower_components/neon-animation/neon-animated-pages.html")
+link(rel="import" href="../../bower_components/iron-meta/iron-meta.html")
+link(rel="import" href="../../bower_components/glad-router/glad-router.html")
+link(rel="import" href="../../bower_components/glad-prelude-ls/glad-prelude-ls.html")
+
+dom-module#glad-routed-pages
+  template
+    glad-router(routes="[[routes]]" current-route="{{currentRoute}}")
+        
+
