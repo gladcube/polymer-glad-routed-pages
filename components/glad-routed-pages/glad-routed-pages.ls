@@ -1,4 +1,4 @@
-{join, filter, find, map, elem-index, each, reject, tail, lists-to-obj} = UtilityPreludeLS
+{join, filter, find, map, elem-index, each, reject, tail, lists-to-obj} = Polymer.GladPreludeLs
 
 class GladRoutedPages
   is: \glad-routed-pages
