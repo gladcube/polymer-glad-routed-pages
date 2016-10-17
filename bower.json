@@ -1,6 +1,6 @@
 {
   "name": "glad-routed-pages",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "authors": [
     "masashi-ohata <m-ohata@glad-cube.com>"
   ],
@@ -26,10 +26,10 @@
     "tests"
   ],
   "dependencies": {
-    "polymer": "^1.7.0",
-    "iron-meta": "PolymerElements/iron-meta#^1.1.2",
-    "glad-prelude-ls": "^0.0.5",
+    "polymer": "~1.3.1",
+    "iron-meta": "PolymerElements/iron-meta#~1.1.1",
+    "glad-prelude-ls": "~0.0.4",
     "neon-animation": "PolymerElements/neon-animation#^1.2.4",
-    "glad-router": "^0.0.3"
+    "glad-router": "~0.0.2"
   }
 }
